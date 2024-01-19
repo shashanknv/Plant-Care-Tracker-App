@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="banana.css">
+    <title>Banana Plant Growth Tracker</title>
+</head>
+<body style="border:5px solid white;"></body>
+<div class="topnav">
+  <a href="index.html" ><b>Home</b></a>
+  <a href="contact.html"><b>Contact</b></a>
+  <a href="aboutus.html"><b>About Us</b></a>
+  <a href="search.html"><b>Search</b></a>
+</div><br>
+<body>
+    <header>
+        <h1>Banana Plant Growth Tracker</h1>
+    </header>
+
+    <section id="description">
+        <h2>About Banana plant</h2>
+        <p>As a matter of fact, the Traditional Benefits of Banana Tree is consider as one of the sacred trees and it symbolizes Lord Vishnu. Banana leaf represents growth, regeneration and in auspicious ceremonies, leaves are tied to the pillars and food is served on them.</p>
+    </section>
+
+    <section id="growth-options">
+        <h2>Track Growth</h2>
+        <div class="option" onclick="showWeekDetails(1)">
+            <p>Week 1</p>
+        </div>
+        <div class="option" onclick="showWeekDetails(2)">
+            <p>Week 2</p>
+        </div>
+        <div class="option" onclick="showWeekDetails(3)">
+            <p>Week 3</p>
+        </div>
+        <div class="option" onclick="showWeekDetails(4)">
+            <p>Week 4</p>
+        </div>
+    </section>
+
+    <section id="week-details">
+        <h2>Week Details</h2>
+        <p id="week-description">Hover over the weeks to see details.</p>
+    </section>
+
+    <section id="watering-schedule">
+        <h2>Watering Schedule</h2>
+        <ul>
+            <li>Keep the soil consistently moist but not soggy.</li>
+            <li>Water deeply when the top inch of soil is dry.</li>
+            <li>Provide ample water during the growing season.</li>
+            <li>Reduce watering in the dormant season.</li>
+        </ul>
+    </section>
+
+    <script src="banana.js"></script>
+</body>
+</html>

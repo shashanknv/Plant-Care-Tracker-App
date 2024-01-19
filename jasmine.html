@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jasmine.css">
+    <title>Jasmine Growth Tracker</title>
+</head>
+<body style="border:5px solid white;"></body>
+<div class="topnav">
+  <a href="index.html" ><b>Home</b></a>
+  <a href="contact.html"><b>Contact</b></a>
+  <a href="aboutus.html"><b>About Us</b></a>
+  <a href="search.html"><b>Search</b></a>
+</div><br>
+<body>
+    <header>
+        <h1>Jasmine Growth Tracker</h1>
+    </header>
+
+    <section id="description">
+        <h2>About Jasmine</h2>
+        <p>The main reason jasmine is so famous is its strong fragrance. People adore the flower for its strong, sweet smell. Countless cultures worldwide include it in aromatic products like candles, perfumes, soaps, and lotions.</p>
+    </section>
+
+    <section id="growth-options">
+        <h2>Track Growth</h2>
+        <div class="option" onclick="showWeekDetails(1)">
+            <p>Week 1</p>
+        </div>
+        <div class="option" onclick="showWeekDetails(2)">
+            <p>Week 2</p>
+        </div>
+        <div class="option" onclick="showWeekDetails(3)">
+            <p>Week 3</p>
+        </div>
+        <div class="option" onclick="showWeekDetails(4)">
+            <p>Week 4</p>
+        </div>
+    </section>
+
+    <section id="week-details">
+        <h2>Week Details</h2>
+        <p id="week-description">Hover over the weeks to see details.</p>
+    </section>
+
+    <section id="watering-schedule">
+        <h2>Watering Schedule</h2>
+        <ul>
+            <li>Keep the soil consistently moist but not waterlogged</li>
+            <li>Water when the top inch of soil feels dry</li>
+            <li>Provide extra moisture in dry and hot conditions</li>
+            <li>Reduce watering during the dormant winter months</li>
+        </ul>
+    </section>
+
+    <script src="jasmine.js"></script>
+</body>
+</html>

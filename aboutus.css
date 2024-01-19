@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    /* margin: 0;
+    padding: 0;  */
+    color: white;
+    background-image: url('bg.jpg');
+    background-color: #0b693f;
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #62d05d;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #0b693f;
+    color: white;
+  }
+  a{
+    color: white;
+  }
+  a:hover {
+      color: rgb(148, 148, 231);
+    }
+  
+  /* header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  } */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  /* Team Members Section */
+  .team-members {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .member {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .member img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  /* Customer Reviews Section */
+  .customer-reviews {
+    margin-top: 40px;
+  }
+  
+  .review {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review p:first-child {
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+  
+  

@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('jasmine_bg.jpg');
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #61d2ff;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #0b693f;
+    color: white;
+  }
+header {
+    background-color: #61d2ff;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#description, #growth-options, #week-details, #watering-schedule {
+    margin-bottom: 40px;
+}
+
+.option {
+    background-color: #61d2ff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.option:hover {
+    background-color: #478eaa;
+}
+
+#week-details {
+    display: none;
+}
+

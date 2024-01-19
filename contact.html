@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+background-color: #0b693f;
+background-image: url('bg.jpg');
+background-repeat: no-repeat; 
+background-size: 100% 100%;
+background-attachment: fixed;  
+background-size: cover;
+}
+p{ 
+color:white;
+font-size:150%;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnav a:hover {
+    background-color: #62d05d;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #0b693f;
+    color: white;
+  }
+
+a{
+  color: rgb(242, 242, 245);
+}
+a:hover {
+    color: rgb(148, 148, 231);
+  }
+
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: black;
+}
+
+input[type=submit] {
+  background-color: #201d1d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1d0204;
+}
+
+.container {
+  border-radius: 5px;
+ 
+  padding: 20px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+label{
+  color: white;
+}
+  
+    </style>
+ <body style="border:5px solid white;"></body>
+ <div class="topnav">
+    <a href="index.html" ><b>Home</b></a>
+    <a class="active" href="contact.html"><b>Contact</b></a>
+    <a href="aboutus.html"><b>About Us</b></a>
+    <a href="search.html"><b>Search</b></a>
+  </div><br>
+ <!-- <h1 style="font-size:170%;" ><center><p style="color:white;">Contact Us</center></h1> -->
+  <header>
+    <h1><center>Contact Us</center></h1>
+  </header>
+    
+    <center><p>Address: SJB Institute of Technology, Bangalore<br>
+    Phone no: 8618153131<br>
+    email:<a href="mailto:shashanknv333@gmail.com">shashanknv333@gmail.com</a></p></center>
+    <hr><hr>
+    <h1 style="font-size:170%;"><center><p style="color:white;">For Enquiry</center></h1>
+      <div class="container"  >
+        <form action="submit.html">
+          <label for="fname" style="font-size :20px;" >Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+      
+          <label for="email" style="font-size :20px;" >Enter your email:</label><br>
+          <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br>
+
+          <label for="subject" style="font-size :20px;" >Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>      
+
+
+    </head>
+    </html>

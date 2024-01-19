@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    <title>Plant Search</title>
+</head>
+<body style="border:5px solid white;"></body>
+<div class="topnav">
+    <a href="index.html" ><b>Home</b></a>
+    <a href="contact.html"><b>Contact</b></a>
+    <a href="aboutus.html"><b>About Us</b></a>
+    <a class="active" href="search.html"><b>Search</b></a>
+  </div><br>
+<body>
+    <header>
+        <h1>Plant Search</h1>
+    </header>
+
+    <section id="search-form">
+        <label for="plantSelect">Select a Plant:</label>
+        <select id="plantSelect">
+            <option value="rose">Rose</option>
+            <option value="jasmine">Jasmine</option>
+            <option value="hibiscus">Hibiscus</option>
+            <option value="banana">Banana</option>
+            <option value="apple">Apple</option>
+            <option value="strawberry">Strawberry</option>
+        </select>
+        <button onclick="viewPlantDetails()">View Details</button>
+    </section>
+
+    <section id="plant-details">
+        <h2 id="plant-name">Plant Name</h2>
+        <p id="plant-description">Select a plant from the dropdown menu to view details.</p>
+    </section>
+
+    <!-- <footer>
+        <p>&copy; 2023 Plant Search. All rights reserved.</p>
+    </footer> -->
+
+    <script src="search.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hibiscus.css">
+    <title>Jasmine Growth Tracker</title>
+</head>
+<body style="border:5px solid white;"></body>
+<div class="topnav">
+  <a href="index.html" ><b>Home</b></a>
+  <a href="contact.html"><b>Contact</b></a>
+  <a href="aboutus.html"><b>About Us</b></a>
+  <a href="search.html"><b>Search</b></a>
+</div><br>
+<body>
+    <header>
+        <h1>Hibiscus Growth Tracker</h1>
+    </header>
+
+    <section id="description">
+        <h2>About Hibiscus</h2>
+        <p>Hibiscus is high in antioxidants and offers many potential benefits. In particular, it may help promote weight loss, reduce the growth of bacteria and cancer cells, and support the health of the heart and liver. Hibiscus is available as an extract or, more often, a tea.</p>
+    </section>
+
+    <section id="growth-options">
+        <h2>Track Growth</h2>
+        <div class="option" onclick="showWeekDetails(1)">
+            <p>Week 1</p>
+        </div>
+        <div class="option" onclick="showWeekDetails(2)">
+            <p>Week 2</p>
+        </div>
+        <div class="option" onclick="showWeekDetails(3)">
+            <p>Week 3</p>
+        </div>
+        <div class="option" onclick="showWeekDetails(4)">
+            <p>Week 4</p>
+        </div>
+    </section>
+
+    <section id="week-details">
+        <h2>Week Details</h2>
+        <p id="week-description">Hover over the weeks to see details.</p>
+    </section>
+
+    <section id="watering-schedule">
+        <h2>Watering Schedule</h2>
+        <ul>
+            <li>Water regularly, keeping the soil consistently moist.</li>
+            <li>Water deeply, especially during periods of intense heat.</li>
+            <li>Allow the top inch of soil to dry out before watering again.</li>
+            <li>Mulch around the base to retain soil moisture.</li>
+        </ul>
+    </section>
+
+    <script src="hibiscus.js"></script>
+</body>
+</html>
